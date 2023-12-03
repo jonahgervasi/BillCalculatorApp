@@ -1,0 +1,31 @@
+{
+  "MenuItems": [
+    {"id": 1, "name": "Nachos", "category": "Appetizers", "price": 13.99},
+    {"id": 2, "name": "Calamari", "category": "Appetizers", "price": 11.99},
+    {"id": 3, "name": "Ceasar Salad", "category": "Appetizers", "price": 10.99},
+    {"id": 4, "name": "Burger", "category": "Mains", "price": 9.99},
+    {"id": 5, "name": "Hotdog", "category": "Mains", "price": 3.99},
+    {"id": 6, "name": "Pizza", "category": "Mains", "price": 12.99},
+    {"id": 7, "name": "Water", "category": "Drinks", "price": 0.0},
+    {"id": 8, "name": "Pop", "category": "Drinks", "price": 2.0},
+    {"id": 9, "name": "Orange Juice", "category": "Drinks", "price": 3.0},
+    {"id": 10, "name": "Beer", "category": "Alcohol", "price": 5.0},
+    {"id": 11, "name": "Cider", "category": "Alcohol", "price": 6.0},
+    {"id": 12, "name": "Wine", "category": "Alcohol", "price": 7.0}
+  ],
+  "Taxes": [
+    {"id": 1, "name": "Tax 1", "amount": 0.05},
+    {"id": 2, "name": "Tax 2", "amount": 0.08},
+    {
+      "id": 3,
+      "name": "Alcohol Tax",
+      "amount": 0.1,
+      "appliesToCategory": "Alcohol"
+    }
+  ],
+  "Discounts": [
+    {"id": 1, "name": "$5 off", "amount": 5},
+    {"id": 2, "name": "10% off", "amount": 0.1},
+    {"id": 3, "name": "20% off", "amount": 0.2}
+  ]
+}
